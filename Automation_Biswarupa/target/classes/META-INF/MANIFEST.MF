@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 16
+Class-Path: libs/fillo-1.15.jar libs/selenium-java-4.1.3.jar libs/seleni
+ um-api-4.1.3.jar libs/selenium-chrome-driver-4.1.3.jar libs/selenium-ch
+ romium-driver-4.1.3.jar libs/selenium-devtools-v85-4.1.3.jar libs/selen
+ ium-devtools-v97-4.1.3.jar libs/selenium-devtools-v98-4.1.3.jar libs/se
+ lenium-devtools-v99-4.1.3.jar libs/selenium-edge-driver-4.1.3.jar libs/
+ selenium-firefox-driver-4.1.3.jar libs/selenium-ie-driver-4.1.3.jar lib
+ s/selenium-opera-driver-4.1.3.jar libs/selenium-safari-driver-4.1.3.jar
+  libs/selenium-support-4.1.3.jar libs/selenium-remote-driver-4.1.3.jar 
+ libs/jcommander-1.82.jar libs/auto-service-annotations-1.0.1.jar libs/a
+ uto-service-1.0.1.jar libs/auto-common-1.2.jar libs/netty-buffer-4.1.75
+ .Final.jar libs/netty-codec-http-4.1.75.Final.jar libs/netty-codec-4.1.
+ 75.Final.jar libs/netty-handler-4.1.75.Final.jar libs/netty-common-4.1.
+ 75.Final.jar libs/netty-transport-classes-epoll-4.1.75.Final.jar libs/n
+ etty-transport-classes-kqueue-4.1.75.Final.jar libs/netty-transport-nat
+ ive-epoll-4.1.75.Final.jar libs/netty-transport-native-kqueue-4.1.75.Fi
+ nal.jar libs/netty-transport-native-unix-common-4.1.75.Final.jar libs/n
+ etty-transport-4.1.75.Final.jar libs/netty-resolver-4.1.75.Final.jar li
+ bs/opentelemetry-api-1.12.0.jar libs/opentelemetry-context-1.12.0.jar l
+ ibs/opentelemetry-exporter-logging-1.12.0.jar libs/opentelemetry-sdk-me
+ trics-1.12.0-alpha.jar libs/opentelemetry-sdk-logs-1.12.0-alpha.jar lib
+ s/opentelemetry-sdk-common-1.12.0.jar libs/opentelemetry-sdk-extension-
+ autoconfigure-spi-1.12.0.jar libs/opentelemetry-sdk-extension-autoconfi
+ gure-1.12.0-alpha.jar libs/opentelemetry-sdk-trace-1.12.0.jar libs/open
+ telemetry-sdk-1.12.0.jar libs/opentelemetry-semconv-1.12.0-alpha.jar li
+ bs/jtoml-2.0.0.jar libs/byte-buddy-1.12.8.jar libs/commons-exec-1.3.jar
+  libs/async-http-client-2.12.3.jar libs/async-http-client-netty-utils-2
+ .12.3.jar libs/netty-codec-socks-4.1.60.Final.jar libs/netty-handler-pr
+ oxy-4.1.60.Final.jar libs/netty-transport-native-epoll-4.1.60.Final-lin
+ ux-x86_64.jar libs/netty-transport-native-kqueue-4.1.60.Final-osx-x86_6
+ 4.jar libs/reactive-streams-1.0.3.jar libs/netty-reactive-streams-2.0.4
+ .jar libs/jakarta.activation-1.2.2.jar libs/selenium-http-4.1.3.jar lib
+ s/failsafe-3.2.3.jar libs/selenium-json-4.1.3.jar libs/webdrivermanager
+ -5.5.3.jar libs/slf4j-api-2.0.7.jar libs/gson-2.10.1.jar libs/docker-ja
+ va-3.3.3.jar libs/docker-java-core-3.3.3.jar libs/docker-java-api-3.3.3
+ .jar libs/jackson-annotations-2.10.3.jar libs/commons-compress-1.21.jar
+  libs/jackson-databind-2.10.3.jar libs/jackson-core-2.10.3.jar libs/bcp
+ kix-jdk18on-1.75.jar libs/bcprov-jdk18on-1.75.jar libs/bcutil-jdk18on-1
+ .75.jar libs/jcl-over-slf4j-1.7.30.jar libs/docker-java-transport-httpc
+ lient5-3.3.3.jar libs/docker-java-transport-3.3.3.jar libs/dec-0.1.2.ja
+ r libs/commons-lang3-3.13.0.jar libs/httpclient5-5.2.1.jar libs/httpcor
+ e5-5.2.jar libs/httpcore5-h2-5.2.jar libs/guava-31.0.1-jre.jar libs/fai
+ lureaccess-1.0.1.jar libs/listenablefuture-9999.0-empty-to-avoid-confli
+ ct-with-guava.jar libs/jsr305-3.0.2.jar libs/checker-qual-3.12.0.jar li
+ bs/error_prone_annotations-2.7.1.jar libs/j2objc-annotations-1.3.jar li
+ bs/ashot-1.5.4.jar libs/commons-io-2.5.jar libs/hamcrest-core-1.3.jar l
+ ibs/java-client-8.0.0.jar libs/commons-codec-1.15.jar libs/cglib-3.3.0.
+ jar libs/asm-7.1.jar libs/commons-validator-1.7.jar libs/commons-beanut
+ ils-1.9.4.jar libs/commons-digester-2.1.jar libs/commons-logging-1.2.ja
+ r libs/commons-collections-3.2.2.jar libs/spring-context-5.3.16.jar lib
+ s/spring-aop-5.3.16.jar libs/spring-beans-5.3.16.jar libs/spring-core-5
+ .3.16.jar libs/spring-jcl-5.3.16.jar libs/spring-expression-5.3.16.jar 
+ libs/aspectjweaver-1.9.8.jar libs/mysql-connector-java-8.0.27.jar libs/
+ protobuf-java-3.11.4.jar libs/tess4j-5.8.0.jar libs/jna-5.13.0.jar libs
+ /jai-imageio-core-1.4.0.jar libs/pdfbox-2.0.29.jar libs/fontbox-2.0.29.
+ jar libs/pdfbox-tools-2.0.29.jar libs/pdfbox-debugger-2.0.29.jar libs/j
+ big2-imageio-3.0.4.jar libs/lept4j-1.18.1.jar libs/jboss-vfs-3.2.17.Fin
+ al.jar libs/jboss-logging-3.1.4.GA.jar
+Main-Class: com.framework.main.RunFramework
+Created-By: Maven Integration for Eclipse
+
